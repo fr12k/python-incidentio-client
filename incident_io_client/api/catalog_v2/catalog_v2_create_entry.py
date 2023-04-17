@@ -62,9 +62,10 @@ def sync_detailed(
      Create an entry for a type in the catalog.
 
     Args:
-        json_body (CatalogV2CreateEntryRequestBody):  Example: {'attribute_values': {'abc123':
-            {'array_value': [{'literal': 'SEV123'}], 'value': {'literal': 'SEV123'}}},
-            'catalog_type_id': '01FCNDV6P870EA6S7TK1DSYDG0', 'name': 'Primary On-call'}.
+        json_body (CatalogV2CreateEntryRequestBody):  Example: {'alias': 'incident-io/core',
+            'attribute_values': {'abc123': {'array_value': [{'literal': 'SEV123'}], 'value':
+            {'literal': 'SEV123'}}}, 'catalog_type_id': '01FCNDV6P870EA6S7TK1DSYDG0', 'external_id':
+            '761722cd-d1d7-477b-ac7e-90f9e079dc33', 'name': 'Primary On-call', 'rank': 3}.
 
     Returns:
         Response[CatalogV2CreateEntryResponseBody]
@@ -93,9 +94,10 @@ def sync(
      Create an entry for a type in the catalog.
 
     Args:
-        json_body (CatalogV2CreateEntryRequestBody):  Example: {'attribute_values': {'abc123':
-            {'array_value': [{'literal': 'SEV123'}], 'value': {'literal': 'SEV123'}}},
-            'catalog_type_id': '01FCNDV6P870EA6S7TK1DSYDG0', 'name': 'Primary On-call'}.
+        json_body (CatalogV2CreateEntryRequestBody):  Example: {'alias': 'incident-io/core',
+            'attribute_values': {'abc123': {'array_value': [{'literal': 'SEV123'}], 'value':
+            {'literal': 'SEV123'}}}, 'catalog_type_id': '01FCNDV6P870EA6S7TK1DSYDG0', 'external_id':
+            '761722cd-d1d7-477b-ac7e-90f9e079dc33', 'name': 'Primary On-call', 'rank': 3}.
 
     Returns:
         Response[CatalogV2CreateEntryResponseBody]
@@ -117,9 +119,10 @@ async def asyncio_detailed(
      Create an entry for a type in the catalog.
 
     Args:
-        json_body (CatalogV2CreateEntryRequestBody):  Example: {'attribute_values': {'abc123':
-            {'array_value': [{'literal': 'SEV123'}], 'value': {'literal': 'SEV123'}}},
-            'catalog_type_id': '01FCNDV6P870EA6S7TK1DSYDG0', 'name': 'Primary On-call'}.
+        json_body (CatalogV2CreateEntryRequestBody):  Example: {'alias': 'incident-io/core',
+            'attribute_values': {'abc123': {'array_value': [{'literal': 'SEV123'}], 'value':
+            {'literal': 'SEV123'}}}, 'catalog_type_id': '01FCNDV6P870EA6S7TK1DSYDG0', 'external_id':
+            '761722cd-d1d7-477b-ac7e-90f9e079dc33', 'name': 'Primary On-call', 'rank': 3}.
 
     Returns:
         Response[CatalogV2CreateEntryResponseBody]
@@ -146,9 +149,10 @@ async def asyncio(
      Create an entry for a type in the catalog.
 
     Args:
-        json_body (CatalogV2CreateEntryRequestBody):  Example: {'attribute_values': {'abc123':
-            {'array_value': [{'literal': 'SEV123'}], 'value': {'literal': 'SEV123'}}},
-            'catalog_type_id': '01FCNDV6P870EA6S7TK1DSYDG0', 'name': 'Primary On-call'}.
+        json_body (CatalogV2CreateEntryRequestBody):  Example: {'alias': 'incident-io/core',
+            'attribute_values': {'abc123': {'array_value': [{'literal': 'SEV123'}], 'value':
+            {'literal': 'SEV123'}}}, 'catalog_type_id': '01FCNDV6P870EA6S7TK1DSYDG0', 'external_id':
+            '761722cd-d1d7-477b-ac7e-90f9e079dc33', 'name': 'Primary On-call', 'rank': 3}.
 
     Returns:
         Response[CatalogV2CreateEntryResponseBody]

@@ -13,16 +13,20 @@ T = TypeVar("T", bound="CatalogV2ListTypesResponseBody")
 class CatalogV2ListTypesResponseBody:
     """
     Example:
-        {'catalog_types': [{'created_at': '2021-08-17T13:28:57.801578Z', 'description': 'Represents Kubernetes clusters
-            that we run inside of GKE.', 'id': '01FCNDV6P870EA6S7TK1DSYDG0', 'name': 'Kubernetes Cluster', 'schema':
-            {'attributes': [{'array': False, 'id': '01GW2G3V0S59R238FAHPDS1R66', 'name': 'tier', 'type': 'tier'}],
-            'version': 1}, 'semantic_type': 'service', 'updated_at': '2021-08-17T13:28:57.801578Z'}]}
+        {'catalog_types': [{'color': 'slate', 'created_at': '2021-08-17T13:28:57.801578Z', 'description': 'Represents
+            Kubernetes clusters that we run inside of GKE.', 'estimated_count': 7, 'icon': 'bolt', 'id':
+            '01FCNDV6P870EA6S7TK1DSYDG0', 'is_editable': False, 'name': 'Kubernetes Cluster', 'ranked': True,
+            'required_integrations': ['pager_duty'], 'schema': {'attributes': [{'array': False, 'id':
+            '01GW2G3V0S59R238FAHPDS1R66', 'name': 'tier', 'type': 'CatalogEntry["01GVGYJSD39FRKVDWACK9NDS4E"]'}], 'version':
+            1}, 'semantic_type': 'custom', 'updated_at': '2021-08-17T13:28:57.801578Z'}]}
 
     Attributes:
-        catalog_types (List['CatalogTypeV2ResponseBody']):  Example: [{'created_at': '2021-08-17T13:28:57.801578Z',
-            'description': 'Represents Kubernetes clusters that we run inside of GKE.', 'id': '01FCNDV6P870EA6S7TK1DSYDG0',
-            'name': 'Kubernetes Cluster', 'schema': {'attributes': [{'array': False, 'id': '01GW2G3V0S59R238FAHPDS1R66',
-            'name': 'tier', 'type': 'tier'}], 'version': 1}, 'semantic_type': 'service', 'updated_at':
+        catalog_types (List['CatalogTypeV2ResponseBody']):  Example: [{'color': 'slate', 'created_at':
+            '2021-08-17T13:28:57.801578Z', 'description': 'Represents Kubernetes clusters that we run inside of GKE.',
+            'estimated_count': 7, 'icon': 'bolt', 'id': '01FCNDV6P870EA6S7TK1DSYDG0', 'is_editable': False, 'name':
+            'Kubernetes Cluster', 'ranked': True, 'required_integrations': ['pager_duty'], 'schema': {'attributes':
+            [{'array': False, 'id': '01GW2G3V0S59R238FAHPDS1R66', 'name': 'tier', 'type':
+            'CatalogEntry["01GVGYJSD39FRKVDWACK9NDS4E"]'}], 'version': 1}, 'semantic_type': 'custom', 'updated_at':
             '2021-08-17T13:28:57.801578Z'}].
     """
 
